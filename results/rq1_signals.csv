@@ -1,0 +1,35 @@
+signal_id,signal,coverage,p_type,mentions,risks,n_risks
+S04,Credential/token use,N,,14,ASI02;ASI03;ASI04;MCP01;MCP02;MCP07,6
+S17,Tool/schema version and hash,N,,7,ASI04;MCP03;MCP04;MCP08,4
+S10,Goal / intent identifier,N,,6,ASI01;ASI03;ASI07;ASI10;MCP06,5
+S02,Verified agent identity,N,,4,ASI07;ASI08;ASI10;MCP03,4
+S07,Permission change,N,,4,ASI03;MCP02,2
+S24,Sensitive-data classification,N,,4,ASI01;ASI09;MCP01;MCP08,4
+S28,Message integrity / replay check,N,,2,ASI07,1
+S01,Agent identifier,P,b,9,MCP01;MCP02;MCP03;MCP07;MCP08;MCP10,6
+S13,Policy / guardrail decision,P,c,9,ASI01;ASI02;ASI08;ASI09;MCP05;MCP10,6
+S15,Tool arguments,P,a,7,ASI02;ASI08;MCP05;MCP08,4
+S18,MCP server identity and endpoint,P,b,7,MCP09,1
+S20,Configuration change,P,b,7,ASI01;MCP02;MCP04;MCP09,4
+S21,Input content,P,a,7,ASI01;ASI05;ASI09;MCP06;MCP08,5
+S06,Delegation chain,P,b,6,ASI03;ASI04;ASI08;ASI10,4
+S05,AuthN/AuthZ outcome,P,b,5,ASI03;MCP07,2
+S30,Process / command execution,P,b,5,ASI05;MCP05;MCP08,3
+S12,Human approval / input request,P,b,4,ASI01;MCP05;MCP06,3
+S03,Human principal,P,c,3,ASI01;MCP01;MCP08,3
+S16,Tool result,P,a,3,ASI08;MCP08,2
+S19,Component/dependency integrity,P,c,3,ASI04;MCP04,2
+S22,Output content,P,a,3,ASI05;ASI09;MCP08,3
+S26,Content provenance,P,b,2,ASI06;ASI09,2
+S31,File access,P,c,2,ASI05;MCP05,2
+S23,System instructions / prompt version,P,a,1,ASI01,1
+S29,Agent discovery / registration,P,b,1,ASI07,1
+S14,Tool invocation,C,,17,ASI01;ASI02;ASI08;ASI09;ASI10;MCP02;MCP03;MCP05;MCP08;MCP09,10
+S11,Action sequence,C,,11,ASI01;ASI02;ASI08;ASI09;ASI10;MCP06;MCP07;MCP08,8
+S08,Session / trace correlation id,C,,8,ASI07;MCP01;MCP02;MCP03;MCP08,5
+S27,Inter-agent message event,C,,7,ASI04;ASI07;ASI08;ASI10,4
+S34,Resource use and rates,C,,7,ASI02;ASI06;ASI08;ASI10;MCP05;MCP08,6
+S32,Network egress,C,,6,ASI02;ASI10;MCP04;MCP05;MCP08;MCP09,6
+S33,Downstream data access and volume,C,,5,ASI01;ASI02;ASI10;MCP03;MCP08,5
+S25,Memory read/write,C,,4,ASI06;MCP01;MCP10,3
+S09,Timestamp,C,,3,ASI07;ASI08;MCP08,3

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "Agent telemetry coverage: OWASP agentic and MCP monitoring guidance versus OpenTelemetry GenAI semantic conventions"
+type: dataset
+version: 0.1.0
+date-released: 2026-11-13
+authors:
+  - given-names: Anutsetsen
+    family-names: Enkhzorigt
+license:
+  - MIT
+  - CC-BY-SA-4.0
+repository-code: "https://github.com/anustsn/agent-telemetry-coverage"
+keywords:
+  - AI agents
+  - OpenTelemetry
+  - OWASP
+  - Model Context Protocol
+  - security monitoring
+  - audit evidence

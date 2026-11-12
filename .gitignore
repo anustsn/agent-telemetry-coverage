@@ -1,0 +1,4 @@
+sources/cache/
+results/check/
+__pycache__/
+*.pyc

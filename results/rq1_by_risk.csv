@@ -1,0 +1,21 @@
+risk_id,risk_name,inc_units,C,P,N,units_all_C,units_with_N
+ASI01,Agent Goal Hijack,5,3,9,3,0,3
+ASI02,Tool Misuse and Exploitation,2,6,4,1,0,1
+ASI03,Identity and Privilege Abuse,3,0,4,5,0,3
+ASI04,Agentic Supply Chain Vulnerabilities,1,1,2,2,0,1
+ASI05,Unexpected Code Execution (RCE),2,0,4,0,0,0
+ASI06,Memory & Context Poisoning ,1,2,1,0,0,0
+ASI07,Insecure Inter-Agent Communication,3,4,1,4,0,3
+ASI08,Cascading Failures,4,8,5,1,2,1
+ASI09,Human-Agent Trust Exploitation,4,4,5,1,0,1
+ASI10,Rogue Agents,3,9,1,2,1,1
+MCP01,MCP01:2025 - Token Mismanagement and Secret Exposure,3,2,2,3,0,3
+MCP02,MCP02:2025 - Privilege Escalation via Scope Creep,6,3,5,6,0,5
+MCP03,MCP03:2025 - Tool Poisoning,3,4,1,4,0,3
+MCP04,MCP04:2025 – Software Supply Chain Attacks & Dependency Tampering,4,1,5,1,1,1
+MCP05,MCP05:2025 – Command Injection & Execution,8,3,9,0,2,0
+MCP06,MCP06:2025 – Intent Flow Subversion,1,1,2,1,0,1
+MCP07,MCP07:2025 – Insufficient Authentication & Authorization,8,1,6,4,0,4
+MCP08,MCP08:2025 – Lack of Audit and Telemetry,7,12,8,3,1,3
+MCP09,MCP09:2025 – Shadow MCP Servers,8,2,8,0,1,0
+MCP10,MCP10:2025 – Context Injection & Over-Sharing,2,2,2,0,0,0
