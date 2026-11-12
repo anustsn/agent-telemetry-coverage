@@ -107,11 +107,3 @@ sources/SOURCES.md           pinned source URLs, hashes and licences
 ## Citation
 See [`CITATION.cff`](CITATION.cff).
 
----
-
-### Монгол хураангуй
-OWASP-ийн AI agent болон MCP-ийн Top 10 жагсаалт байгууллагуудаас agent-ийн үйл ажиллагааг хянахыг шаарддаг. Энэ судалгаагаар тэр 78 шаардлагыг OpenTelemetry-ийн GenAI стандарттай нэг бүрчлэн тулгаж үзэв.
-- 10% нь стандарт telemetry-гээр бүрэн нотлогдож байна.
-- 44% нь огт нотлогдохгүй байна.
-- Хамгийн том цоорхой нь credential/token-ийн хэрэглээ болон agent-ийн баталгаажсан identity.
-- Эдгээр нотолгоог IAM болон gateway-ийн log-оос авах шаардлагатай.
